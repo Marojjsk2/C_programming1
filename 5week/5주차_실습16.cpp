@@ -17,5 +17,3 @@ void Add(int val)
 {
 	num += val;
 }
-
-
