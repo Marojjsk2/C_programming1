@@ -26,6 +26,7 @@ int main(void)
 	{
 	result = num1 * num2;
 	}
+	
 	if (opt == 4)
 	{
 	result = num1 / num2;
