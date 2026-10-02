@@ -13,5 +13,3 @@ int main(void)
 	printf("main 함수 내 지역변수 num: %d\n", num);
 	return 0;
 }
-
-
