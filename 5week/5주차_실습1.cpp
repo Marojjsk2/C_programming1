@@ -13,13 +13,23 @@ int main(void)
 	scanf("%lf %lf", &num1, &num2);
 
 	if (opt == 1)
-		result = num1 + num2;
+	{
+	result = num1 + num2;
+	}
+	
 	if (opt == 2)
-		result = num1 - num2;
+	{
+	result = num1 - num2;
+	}
+	
 	if (opt == 3)
-		result = num1 * num2;
+	{
+	result = num1 * num2;
+	}
 	if (opt == 4)
-		result = num1 / num2;
+	{
+	result = num1 / num2;
+	}
 
 	printf("결과: %f\n", result);
 	return 0;
