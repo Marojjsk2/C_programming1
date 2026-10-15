@@ -26,6 +26,7 @@ void display(int image[ROWS][COLS])
 		printf("\n");
 	}
 }
+
 void inverse(int img[ROWS][COLS])
 {
 	for (int r = 0; r < ROWS; r++) 
