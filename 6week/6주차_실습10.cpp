@@ -28,8 +28,10 @@ void display(int image[ROWS][COLS])
 }
 void inverse(int img[ROWS][COLS])
 {
-	for (int r = 0; r < ROWS; r++) {
-		for (int c = 0; c < COLS; c++) {
+	for (int r = 0; r < ROWS; r++) 
+	{
+		for (int c = 0; c < COLS; c++) 
+		{
 			if (img[r][c] == 0) img[r][c] = 1;
 			else img[r][c] = 0;
 		}
