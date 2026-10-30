@@ -1,6 +1,7 @@
 ﻿#include <stdio.h>
 
-struct vector {
+struct vector 
+{
 	double x;
 	double y;
 };
