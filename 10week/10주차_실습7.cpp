@@ -6,8 +6,10 @@ int main(void)
 	char* pc;
 	int i;
 
-	pc = (char*)&data;
+	pc = (char*) & data;
 	for (i = 0; i < 4; i++)
-		printf("*(pc + %d) = %02X \n", i, *(pc + i));
+		{
+			printf("*(pc + %d) = %02X \n", i, *(pc + i));
+		}
 	return 0;
 }
