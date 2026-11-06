@@ -12,5 +12,6 @@ int main(void)
 	p = &y;
 	printf("p = %p\n", p);
 	printf("*p = %u\n", *p);
+	
 	return 0;
 }
