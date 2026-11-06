@@ -1,5 +1,6 @@
 #include <stdio.h>
 #define SIZE 5
+
 void print_image(int image[][SIZE])
 
 {
