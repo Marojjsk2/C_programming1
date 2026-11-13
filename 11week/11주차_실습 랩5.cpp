@@ -16,10 +16,11 @@ int main(void)
 	};
 	char word[30];
 
-	printf("단어를 입력하시오:");
+	printf("단어를 입력하시오: ");
 	scanf("%s", word);
 
 	index = 0;
+	
 	for (i = 0; i < ENTRIES; i++)
 	{
 		if (strcmp(dic[index][0], word) == 0)
