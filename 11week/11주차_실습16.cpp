@@ -3,6 +3,7 @@
 int main(void)
 {
 	int i;
+	
 	char menu[5][10] =
 	{
 		"init",
@@ -13,7 +14,8 @@ int main(void)
 	};
 
 	for (i = 0; i < 5; i++)
-		printf("%d 번째 메뉴: %s \n", i, menu[i]);
-
+		{
+			printf("%d 번째 메뉴: %s \n", i, menu[i]);
+		}
 	return 0;
 }
