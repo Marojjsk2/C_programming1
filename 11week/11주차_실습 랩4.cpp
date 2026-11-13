@@ -6,7 +6,8 @@ int main(void)
 	char filename[100];
 	int i;
 
-	for (i = 0; i < 6; i++) {
+	for (i = 0; i < 6; i++) 
+	{
 		sprintf(filename, "image%d.jpg", i);
 		printf("%s \n", filename);
 	}
