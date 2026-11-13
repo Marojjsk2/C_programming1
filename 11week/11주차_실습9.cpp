@@ -13,11 +13,18 @@ int main(void)
 	scanf("%s", s2);
 
 	result = strcmp(s1, s2);
+	
 	if (result < 0)
+	{
 		printf("%s가 %s보다 앞에 있습니다.\n", s1, s2);
+	}
 	else if (result == 0)
+	{
 		printf("%s가 %s와 같습니다.\n", s1, s2);
+	}
 	else
+	{
 		printf("%s가 %s보다 뒤에 있습니다.\n", s1, s2);
+	}
 	return 0;
 }
