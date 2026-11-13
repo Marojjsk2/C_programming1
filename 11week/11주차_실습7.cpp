@@ -8,7 +8,9 @@ int main(void)
 	while ((c = getchar()) != EOF)
 	{
 		if (islower(c))
+		{
 			c = toupper(c);
+		}
 		putchar(c);
 	}
 	return 0;
