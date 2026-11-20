@@ -28,7 +28,9 @@ int main(void)
 	int i;
 
 	for (i = 0; i < 10; i++)
-		printf("%u ", random_i() % 101);
+		{
+			printf("%u ", random_i() % 101);
+		}
 	printf("\n");
 
 	return 0;
