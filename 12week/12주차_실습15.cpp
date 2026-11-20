@@ -17,9 +17,9 @@ int sum(int num, ...)
 	va_start(argptr, num);
 	
 	for (; num > 0; num--)
-		{
-			answer += va_arg(argptr, int);
-		}
+	{
+		answer += va_arg(argptr, int);
+	}
 	va_end(argptr);
 	return(answer);
 }
