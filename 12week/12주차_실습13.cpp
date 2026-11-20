@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 int x = 50;
 
 int main(void)
